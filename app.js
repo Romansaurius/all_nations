@@ -13,6 +13,16 @@ const regionAreasRoutes = require('./routes/region_areasRoutes');
 
 const api = express();
 api.use(express.json());
+
+// Ruta de bienvenida sin autenticación
+api.get('/', (req, res) => {
+    res.json({
+        message: 'API de Countries funcionando correctamente',
+        documentation: '/api-docs',
+        note: 'Usa el header x-api-key para acceder a los endpoints'
+    });
+});
+
 api.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 api.use('/api/continent', apiKeyAuth, continentRoutes)
