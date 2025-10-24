@@ -7,8 +7,7 @@ const options = {
     info: {
       title: 'API de Roman Ranucci',
       version: '1.0.0',
-      description: 'Documentación de la API con Swagger',
-      ApiKey: 'RomanRZD9vaQQaL6En7'
+      description: 'Documentación de la API con Swagger\n\nAPI-KEY: RomanRZD9vaQQaL6En7',
     },
     servers: [
       {
