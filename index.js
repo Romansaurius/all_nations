@@ -13,7 +13,8 @@ const swaggerOptions = {
     info: {
       title: 'API de Roman Ranucci',
       version: '1.0.0',
-      description: 'Documentación de la API'
+      description: 'Documentación de la API',
+      ApiKey: 'RomanRZD9vaQQaL6En7'
     },
     servers: [{ url: 'http://localhost:3001' }],
     components: {

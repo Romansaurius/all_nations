@@ -5,9 +5,10 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API de Fedegoo',
+      title: 'API de Roman Ranucci',
       version: '1.0.0',
-      description: 'Documentación de la API ejemplo',
+      description: 'Documentación de la API con Swagger',
+      ApiKey: 'RomanRZD9vaQQaL6En7'
     },
     servers: [
       {
